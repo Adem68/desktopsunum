@@ -1,4 +1,4 @@
-package com.example.desktopsunum
+package com.ademfurkan.desktopsunum
 
 import io.flutter.embedding.android.FlutterActivity
 

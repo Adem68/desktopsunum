@@ -49,13 +49,16 @@ class _PresentationExampleState extends State<PresentationExample> {
             children: [
               Align(
                 alignment: Alignment.topCenter,
-                child: Text(
-                  '\$whoami',
-                  style: Theme.of(context).textTheme.headline1.copyWith(color: Colors.blueAccent, fontWeight: FontWeight.bold, fontSize: 80),
+                child: Padding(
+                  padding: const EdgeInsets.only(top: 10.0),
+                  child: Text(
+                    '\$whoami',
+                    style: Theme.of(context).textTheme.headline1.copyWith(color: Colors.blueAccent, fontWeight: FontWeight.bold, fontSize: 80),
+                  ),
                 ),
               ),
               Container(
-                margin: EdgeInsets.only(top: 60),
+                margin: EdgeInsets.only(top: 100),
                 child: Text(
                   '* MIS Student @ Istinye University\n\n* Jr. Flutter Developer\n\n* Flutter Turkey Core Member',
                   style: TextStyle(
@@ -114,7 +117,7 @@ class _PresentationExampleState extends State<PresentationExample> {
                 ),
               ),
               Container(
-                margin: EdgeInsets.only(top: 60),
+                margin: EdgeInsets.only(top: 100),
                 child: Image.asset(
                   'assets/img/gofluttergithub.png',
                 ),
@@ -132,13 +135,16 @@ class _PresentationExampleState extends State<PresentationExample> {
             children: [
               Align(
                 alignment: Alignment.topCenter,
-                child: Text(
-                  'Flutter Desktop (Rust)',
-                  style: Theme.of(context).textTheme.headline1.copyWith(color: Colors.blueAccent, fontWeight: FontWeight.bold, fontSize: 80),
+                child: Padding(
+                  padding: const EdgeInsets.only(top: 10.0),
+                  child: Text(
+                    'Flutter Desktop (Rust)',
+                    style: Theme.of(context).textTheme.headline1.copyWith(color: Colors.blueAccent, fontWeight: FontWeight.bold, fontSize: 80),
+                  ),
                 ),
               ),
               Container(
-                margin: EdgeInsets.only(top: 60),
+                margin: EdgeInsets.only(top: 100),
                 child: Image.asset(
                   'assets/img/flutterrustgithub.png',
                   height: 394,
@@ -158,13 +164,16 @@ class _PresentationExampleState extends State<PresentationExample> {
             children: [
               Align(
                 alignment: Alignment.topCenter,
-                child: Text(
-                  'Raspberry Pi',
-                  style: Theme.of(context).textTheme.headline1.copyWith(color: Colors.blueAccent, fontWeight: FontWeight.bold, fontSize: 80),
+                child: Padding(
+                  padding: const EdgeInsets.only(top: 10.0),
+                  child: Text(
+                    'Raspberry Pi',
+                    style: Theme.of(context).textTheme.headline1.copyWith(color: Colors.blueAccent, fontWeight: FontWeight.bold, fontSize: 80),
+                  ),
                 ),
               ),
               Container(
-                margin: EdgeInsets.only(top: 60),
+                margin: EdgeInsets.only(top: 100),
                 child: Image.asset(
                   'assets/img/flutterpi-gh.png',
                 ),
@@ -182,15 +191,21 @@ class _PresentationExampleState extends State<PresentationExample> {
             children: [
               Align(
                 alignment: Alignment.topCenter,
-                child: Text(
-                  'Kurulum',
-                  style: Theme.of(context).textTheme.headline1.copyWith(color: Colors.blueAccent, fontWeight: FontWeight.bold, fontSize: 80),
+                child: Padding(
+                  padding: const EdgeInsets.only(top: 10.0),
+                  child: Text(
+                    'Kurulum',
+                    style: Theme.of(context).textTheme.headline1.copyWith(color: Colors.blueAccent, fontWeight: FontWeight.bold, fontSize: 80),
+                  ),
                 ),
               ),
               Container(
-                margin: EdgeInsets.only(top: 60),
+                margin: EdgeInsets.only(top: 100),
                 child: Image.asset(
                   'assets/img/code1.png',
+                  height: 600,
+                  width: 1200,
+                  fit: BoxFit.cover,
                 ),
               ),
             ],
@@ -199,15 +214,20 @@ class _PresentationExampleState extends State<PresentationExample> {
             children: [
               Align(
                 alignment: Alignment.topCenter,
-                child: Text(
-                  'Kurulum',
-                  style: Theme.of(context).textTheme.headline1.copyWith(color: Colors.blueAccent, fontWeight: FontWeight.bold, fontSize: 80),
+                child: Padding(
+                  padding: const EdgeInsets.only(top: 10.0),
+                  child: Text(
+                    'Kurulum',
+                    style: Theme.of(context).textTheme.headline1.copyWith(color: Colors.blueAccent, fontWeight: FontWeight.bold, fontSize: 80),
+                  ),
                 ),
               ),
               Container(
-                margin: EdgeInsets.only(top: 60),
+                margin: EdgeInsets.only(top: 100),
                 child: Image.asset(
                   'assets/img/code2.png',
+                  height: 600,
+                  fit: BoxFit.cover,
                 ),
               ),
             ],
@@ -216,13 +236,16 @@ class _PresentationExampleState extends State<PresentationExample> {
             children: [
               Align(
                 alignment: Alignment.topCenter,
-                child: Text(
-                  'Wimdows Release Mode',
-                  style: Theme.of(context).textTheme.headline1.copyWith(color: Colors.blueAccent, fontWeight: FontWeight.bold, fontSize: 80),
+                child: Padding(
+                  padding: const EdgeInsets.only(top: 10.0),
+                  child: Text(
+                    'Windows Release Mode',
+                    style: Theme.of(context).textTheme.headline1.copyWith(color: Colors.blueAccent, fontWeight: FontWeight.bold, fontSize: 80),
+                  ),
                 ),
               ),
               Container(
-                margin: EdgeInsets.only(top: 60),
+                margin: EdgeInsets.only(top: 100),
                 child: Text(
                   'Implement release mode for Windows #38477',
                   style: TextStyle(fontSize: 20, decoration: TextDecoration.underline),
@@ -240,13 +263,16 @@ class _PresentationExampleState extends State<PresentationExample> {
             children: [
               Align(
                 alignment: Alignment.topCenter,
-                child: Text(
-                  'Eksiklikler',
-                  style: Theme.of(context).textTheme.headline1.copyWith(color: Colors.blueAccent, fontWeight: FontWeight.bold, fontSize: 80),
+                child: Padding(
+                  padding: const EdgeInsets.only(top: 10.0),
+                  child: Text(
+                    'Eksiklikler',
+                    style: Theme.of(context).textTheme.headline1.copyWith(color: Colors.blueAccent, fontWeight: FontWeight.bold, fontSize: 80),
+                  ),
                 ),
               ),
               Container(
-                margin: EdgeInsets.only(top: 60, left: 10, right: 10),
+                margin: EdgeInsets.only(top: 100, left: 10, right: 10),
                 child: Text(
                   '* Official kütüphanelerin çoğu desktop’u (Linux, macOS, Windows) desteklemiyor\n\n* Community kütüphanelerinin çoğunun desteği yok\n\n* Varolan projenizi direk build alamayabiliyorsunuz',
                   style: TextStyle(
@@ -263,13 +289,16 @@ class _PresentationExampleState extends State<PresentationExample> {
               children: [
                 Align(
                   alignment: Alignment.topCenter,
-                  child: Text(
-                    'Eksiklikler',
-                    style: Theme.of(context).textTheme.headline1.copyWith(color: Colors.blueAccent, fontWeight: FontWeight.bold, fontSize: 80),
+                  child: Padding(
+                    padding: const EdgeInsets.only(top: 10.0),
+                    child: Text(
+                      'Eksiklikler',
+                      style: Theme.of(context).textTheme.headline1.copyWith(color: Colors.blueAccent, fontWeight: FontWeight.bold, fontSize: 80),
+                    ),
                   ),
                 ),
                 Container(
-                  margin: EdgeInsets.only(top: 60, left: 10, right: 10),
+                  margin: EdgeInsets.only(top: 100, left: 10, right: 10),
                   child: Image.asset(
                     'assets/img/firebasesupport.png',
                   ),
@@ -282,13 +311,16 @@ class _PresentationExampleState extends State<PresentationExample> {
             children: [
               Align(
                 alignment: Alignment.topCenter,
-                child: Text(
-                  'Resmi Kütüphaneler',
-                  style: Theme.of(context).textTheme.headline1.copyWith(color: Colors.blueAccent, fontWeight: FontWeight.bold, fontSize: 80),
+                child: Padding(
+                  padding: const EdgeInsets.only(top: 10.0),
+                  child: Text(
+                    'Resmi Kütüphaneler',
+                    style: Theme.of(context).textTheme.headline1.copyWith(color: Colors.blueAccent, fontWeight: FontWeight.bold, fontSize: 80),
+                  ),
                 ),
               ),
               Container(
-                margin: EdgeInsets.only(top: 60, left: 200),
+                margin: EdgeInsets.only(top: 100, left: 250),
                 child: Text(
                   '* url_launcher (macOS)\n\n* shared_preferences (macOS)\n\n* connectivity (macOS)\n\n* path_provider (Linux, macOS)',
                   style: TextStyle(
@@ -305,13 +337,16 @@ class _PresentationExampleState extends State<PresentationExample> {
             children: [
               Align(
                 alignment: Alignment.topCenter,
-                child: Text(
-                  'Topluluk Kütüphaneleri',
-                  style: Theme.of(context).textTheme.headline1.copyWith(color: Colors.blueAccent, fontWeight: FontWeight.bold, fontSize: 80),
+                child: Padding(
+                  padding: const EdgeInsets.only(top: 10.0),
+                  child: Text(
+                    'Topluluk Kütüphaneleri',
+                    style: Theme.of(context).textTheme.headline1.copyWith(color: Colors.blueAccent, fontWeight: FontWeight.bold, fontSize: 80),
+                  ),
                 ),
               ),
               Container(
-                margin: EdgeInsets.only(top: 60, left: 200),
+                margin: EdgeInsets.only(top: 100, left: 250),
                 child: Text(
                   '* sign_in_with_apple (macOS)\n\n* cross_local_storage (Linux, macOS, Windows)\n\n* octo_image (macOS)\n\n* file_picker (Linux, macOS, Windows)\n\n* path_provider (Linux, macOS)',
                   style: TextStyle(
@@ -327,15 +362,18 @@ class _PresentationExampleState extends State<PresentationExample> {
             children: [
               Align(
                 alignment: Alignment.topCenter,
-                child: Text(
-                  'UI Örnekleri',
-                  style: Theme.of(context).textTheme.headline1.copyWith(color: Colors.blueAccent, fontWeight: FontWeight.bold, fontSize: 80),
+                child: Padding(
+                  padding: const EdgeInsets.only(top: 10.0),
+                  child: Text(
+                    'UI Örnekleri',
+                    style: Theme.of(context).textTheme.headline1.copyWith(color: Colors.blueAccent, fontWeight: FontWeight.bold, fontSize: 80),
+                  ),
                 ),
               ),
               Container(
-                margin: EdgeInsets.only(top: 60),
-                child: Image.network(
-                  'https://i.imgur.com/fM8TFWA.gif',
+                margin: EdgeInsets.only(top: 100),
+                child: Image.asset(
+                  'assets/img/netflix.gif',
                 ),
               ),
               Container(
@@ -351,13 +389,16 @@ class _PresentationExampleState extends State<PresentationExample> {
             children: [
               Align(
                 alignment: Alignment.topCenter,
-                child: Text(
-                  'UI Örnekleri',
-                  style: Theme.of(context).textTheme.headline1.copyWith(color: Colors.blueAccent, fontWeight: FontWeight.bold, fontSize: 80),
+                child: Padding(
+                  padding: const EdgeInsets.only(top: 10.0),
+                  child: Text(
+                    'UI Örnekleri',
+                    style: Theme.of(context).textTheme.headline1.copyWith(color: Colors.blueAccent, fontWeight: FontWeight.bold, fontSize: 80),
+                  ),
                 ),
               ),
               Container(
-                margin: EdgeInsets.only(top: 60),
+                margin: EdgeInsets.only(top: 100),
                 child: Image.asset(
                   'assets/img/bigsur.png',
                 ),
@@ -375,15 +416,18 @@ class _PresentationExampleState extends State<PresentationExample> {
             children: [
               Align(
                 alignment: Alignment.topCenter,
-                child: Text(
-                  'UI Örnekleri',
-                  style: Theme.of(context).textTheme.headline1.copyWith(color: Colors.blueAccent, fontWeight: FontWeight.bold, fontSize: 80),
+                child: Padding(
+                  padding: const EdgeInsets.only(top: 10.0),
+                  child: Text(
+                    'UI Örnekleri',
+                    style: Theme.of(context).textTheme.headline1.copyWith(color: Colors.blueAccent, fontWeight: FontWeight.bold, fontSize: 80),
+                  ),
                 ),
               ),
               Container(
-                margin: EdgeInsets.only(top: 60),
-                child: Image.network(
-                  'https://i.imgur.com/yarFXgQ.gif',
+                margin: EdgeInsets.only(top: 100),
+                child: Image.asset(
+                  'assets/img/appstore.gif',
                 ),
               ),
               Container(
@@ -399,13 +443,16 @@ class _PresentationExampleState extends State<PresentationExample> {
             children: [
               Align(
                 alignment: Alignment.topCenter,
-                child: Text(
-                  'Örnek Uygulamalar',
-                  style: Theme.of(context).textTheme.headline1.copyWith(color: Colors.blueAccent, fontWeight: FontWeight.bold, fontSize: 80),
+                child: Padding(
+                  padding: const EdgeInsets.only(top: 10.0),
+                  child: Text(
+                    'Örnek Uygulamalar',
+                    style: Theme.of(context).textTheme.headline1.copyWith(color: Colors.blueAccent, fontWeight: FontWeight.bold, fontSize: 80),
+                  ),
                 ),
               ),
               Container(
-                margin: EdgeInsets.only(top: 60),
+                margin: EdgeInsets.only(top: 100),
                 child: Image.asset(
                   'assets/img/sharezone.png',
                 ),
@@ -423,13 +470,16 @@ class _PresentationExampleState extends State<PresentationExample> {
             children: [
               Align(
                 alignment: Alignment.topCenter,
-                child: Text(
-                  'Örnek Uygulamalar',
-                  style: Theme.of(context).textTheme.headline1.copyWith(color: Colors.blueAccent, fontWeight: FontWeight.bold, fontSize: 80),
+                child: Padding(
+                  padding: const EdgeInsets.only(top: 10.0),
+                  child: Text(
+                    'Örnek Uygulamalar',
+                    style: Theme.of(context).textTheme.headline1.copyWith(color: Colors.blueAccent, fontWeight: FontWeight.bold, fontSize: 80),
+                  ),
                 ),
               ),
               Container(
-                margin: EdgeInsets.only(top: 60),
+                margin: EdgeInsets.only(top: 100),
                 child: Image.asset(
                   'assets/img/widgetstudio.png',
                 ),
@@ -447,17 +497,25 @@ class _PresentationExampleState extends State<PresentationExample> {
             children: [
               Align(
                 alignment: Alignment.topCenter,
-                child: Text(
-                  'Dinlediğiniz için teşekkürler',
-                  style: Theme.of(context).textTheme.headline1.copyWith(color: Colors.blueAccent, fontWeight: FontWeight.bold, fontSize: 80),
+                child: Padding(
+                  padding: const EdgeInsets.only(top: 10.0),
+                  child: Text(
+                    'Dinlediğiniz için teşekkürler',
+                    style: Theme.of(context).textTheme.headline1.copyWith(color: Colors.blueAccent, fontWeight: FontWeight.bold, fontSize: 80),
+                  ),
                 ),
               ),
-              Container(margin: EdgeInsets.only(top: 100), child: Image.network('https://i.giphy.com/media/3oz8xWKXKu9wcYEEAE/giphy.webp')),
+              Container(
+                margin: EdgeInsets.only(top: 100),
+                child: Image.asset(
+                  'assets/img/ty.webp',
+                ),
+              ),
               Container(
                 margin: EdgeInsets.only(top: 40),
                 child: Text(
                   'Powered by Flutter Desktop 💙',
-                  style: TextStyle(fontSize: 20, color: Colors.blue),
+                  style: TextStyle(fontSize: 60, color: Colors.blue),
                 ),
               )
             ],
