@@ -354,7 +354,7 @@ class _PresentationExampleState extends State<PresentationExample> {
               Container(
                 margin: EdgeInsets.only(top: 100, left: 250),
                 child: Text(
-                  '* sign_in_with_apple (macOS)\n\n* cross_local_storage (Linux, macOS, Windows)\n\n* octo_image (macOS)\n\n* file_picker (Linux, macOS, Windows)\n\n* path_provider (Linux, macOS)',
+                  '* sign_in_with_apple (macOS)\n\n* cross_local_storage (Linux, macOS, Windows)\n\n* octo_image (macOS)\n\n* file_picker (Linux, macOS, Windows)',
                   style: TextStyle(
                     color: Colors.black,
                     fontWeight: FontWeight.bold,
