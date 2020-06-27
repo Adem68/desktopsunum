@@ -76,9 +76,12 @@ class _PresentationExampleState extends State<PresentationExample> {
             children: [
               Align(
                 alignment: Alignment.topCenter,
-                child: Text(
+                child: Padding(
+                  padding: const EdgeInsets.only(top: 10.0),
+                  child: Text(
                   'Flutter Desktop',
                   style: Theme.of(context).textTheme.headline1.copyWith(color: Colors.blueAccent, fontWeight: FontWeight.bold, fontSize: 80),
+                  ),
                 ),
               ),
               SizedBox(
@@ -111,9 +114,12 @@ class _PresentationExampleState extends State<PresentationExample> {
             children: [
               Align(
                 alignment: Alignment.topCenter,
-                child: Text(
+                child: Padding(
+                  padding: const EdgeInsets.only(top: 10.0),
+                  child: Text(
                   'Flutter Desktop (GO)',
                   style: Theme.of(context).textTheme.headline1.copyWith(color: Colors.blueAccent, fontWeight: FontWeight.bold, fontSize: 80),
+                  ),
                 ),
               ),
               Container(
