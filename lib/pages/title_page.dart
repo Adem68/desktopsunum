@@ -35,12 +35,12 @@ class _TitlePageState extends State<TitlePage> {
         Align(
           alignment: Alignment.topCenter,
           child: Padding(
-             padding: const EdgeInsets.only(top: 10.0),
-                  child: Text(
-                  'Flutter Desktop (GO)',
-                  style: Theme.of(context).textTheme.headline1.copyWith(color: Colors.blueAccent, fontWeight: FontWeight.bold, fontSize: 80),
-                  ),
-                ),
+            padding: const EdgeInsets.only(top: 10.0),
+            child: Text(
+              'Flutter Desktop',
+              style: Theme.of(context).textTheme.headline1.copyWith(color: Colors.blueAccent, fontWeight: FontWeight.bold, fontSize: 80),
+            ),
+          ),
         ),
         SizedBox(
           height: 30,
