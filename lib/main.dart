@@ -60,7 +60,7 @@ class _PresentationExampleState extends State<PresentationExample> {
               Container(
                 margin: EdgeInsets.only(top: 100),
                 child: Text(
-                  '* MIS Student @ Istinye University\n\n* Jr. Flutter Developer\n\n* Flutter Turkey Core Member',
+                  '* MIS Student @ Istinye University\n\n* Flutter Developer\n\n* Flutter Turkey Core Member',
                   style: TextStyle(
                     color: Colors.black,
                     fontWeight: FontWeight.bold,
