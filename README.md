@@ -1,6 +1,8 @@
 # desktopsunum
 
-A new Flutter project.
+![image](https://user-images.githubusercontent.com/21019611/108367044-14415f00-720a-11eb-81e0-d5f461154fb3.png)
+
+## [Video](https://youtu.be/RhBgfbtVhf8?t=4338)
 
 ## Getting Started
 
